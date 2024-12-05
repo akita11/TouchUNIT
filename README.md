@@ -4,6 +4,8 @@
 
 タッチセンサICの[TTP223N-HA6](https://www.lcsc.com/product-detail/Touch-Sensors_Tontek-Design-Tech-TTP223N-HA6_C93723.html)を使用した、2系統のタッチセンサです。Grove端子の2本の信号線にタッチ状態を出力することができます。M5Stackの2個の物理スイッチがある[デュアルボタンUNIT](https://www.switch-science.com/products/4048)と同等の出力のため、UIFlow等ではこのデュアルボタンUNIT用のブロック・プログラムがそのまま使えます。
 
+※[M5Stack用ADCユニット](https://www.switch-science.com/products/9491)と形状が互換なので、そのケースを流用できます。
+
 ## 使い方
 
 オレンジのネジ端子にタッチ電極を接続します。T1とT2の独立の2系統のタッチ検出を使用できます。手を近づけただけでONとなるなどタッチ検出の感度が高すぎる場合は、後述の方法で感度を調整してください。（標準状態より感度を高めることは原理上できません）
